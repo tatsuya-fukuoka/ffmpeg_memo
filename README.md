@@ -2,6 +2,7 @@
 ffmpegについてのメモ
 
 ## 映像を扱う際の基本的な引数
+ffmpeg Documentation(https://www.ffmpeg.org/ffmpeg.html)
 -i url:入力URL
 
 -f fmt: 入力や出力のファイル形式。フォーマットは通常、入力に対して自動検出される。
