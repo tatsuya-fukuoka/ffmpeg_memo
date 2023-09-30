@@ -20,7 +20,9 @@ ffmpegについてのメモ
 <summary>-pix_fmt format<format>: ピクセル形式を設定</summary>
 
 下記サポートされているフォーマット。
-```txt
+```bash
+$ ffmpeg -pix_fmts
+
 FLAGS NAME            NB_COMPONENTS BITS_PER_PIXEL
 -----
 IO... yuv420p                3            12
@@ -227,8 +229,10 @@ IO... x2rgb10le              3            30
 <details>
 <summary>-hwaccel hwaccel: デコードするハードウェアアクセラレーションを設定</summary>
 
-ffmpeg -hwaccelsでffmpegのビルドで有効になっているすべてのハードウェアアクセラレーションコンポーネントを表示。
+ffmpegのビルドで有効になっているすべてのハードウェアアクセラレーションコンポーネントを表示。
 ```bash
+$ ffmpeg -hwaccels
+
 Hardware acceleration methods:
 vdpau
 cuda
