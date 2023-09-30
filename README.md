@@ -2,7 +2,8 @@
 ffmpegについてのメモ
 
 ## 映像を扱う際の基本的な引数
-ffmpeg Documentation(https://www.ffmpeg.org/ffmpeg.html)
+[ffmpeg Documentation](https://www.ffmpeg.org/ffmpeg.html)
+
 -i url:入力URL
 
 -f fmt: 入力や出力のファイル形式。フォーマットは通常、入力に対して自動検出される。
@@ -251,7 +252,7 @@ ffmpeg -rtsp_transport tcp -i <rtsp link> -c copy output.mp4
 
 ## NVIDIA GPUハードウェアコーデックでのffmpeg
 ### HomePage
-Using FFmpeg with NVIDIA GPU Hardware Acceleration(https://docs.nvidia.com/video-technologies/video-codec-sdk/12.0/ffmpeg-with-nvidia-gpu/index.html)
+[Using FFmpeg with NVIDIA GPU Hardware Acceleration](https://docs.nvidia.com/video-technologies/video-codec-sdk/12.0/ffmpeg-with-nvidia-gpu/index.html)
 ### Linux 環境構築
 ```bash
 $ git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
